@@ -62,7 +62,6 @@ private:
     void setupUI();
     void setupCalculator();
     void setupVideoPlayer();
-    void createButton(QPushButton *&button, const QString &text, const char *member);
     void calculate();
     void abortOperation();
 };
