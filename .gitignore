@@ -1,0 +1,27 @@
+# Build artifacts
+*.o
+*.obj
+*.moc
+moc_*.cpp
+moc_predefs.h
+*.qm
+Makefile
+Calculator
+
+# Qt project user files
+*.pro.user
+*.qmake.stash
+.qmake.stash
+
+# IDE files
+.idea/
+.vscode/
+*.user
+
+# Debug/Release directories
+debug/
+release/
+
+# Generated files
+ui_*.h
+qrc_*.cpp
