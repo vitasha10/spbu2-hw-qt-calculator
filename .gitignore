@@ -7,6 +7,7 @@ moc_predefs.h
 *.qm
 Makefile
 Calculator
+Calculator.exe
 
 # Qt project user files
 *.pro.user
@@ -21,6 +22,8 @@ Calculator
 # Debug/Release directories
 debug/
 release/
+build/
+cmake-build/
 
 # Generated files
 ui_*.h
