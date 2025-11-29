@@ -25,3 +25,6 @@ release/
 # Generated files
 ui_*.h
 qrc_*.cpp
+
+# CodeQL
+_codeql_detected_source_root
