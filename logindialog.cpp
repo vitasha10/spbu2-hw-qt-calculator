@@ -68,6 +68,7 @@ void LoginDialog::onLoginClicked()
     QString password = passwordEdit->text();
 
     if (validateCredentials(username, password)) {
+        emit loginSuccessful(); // Emit signal on successful login
         accept(); // Close dialog with QDialog::Accepted result
     } else {
         QMessageBox::warning(this, "Ошибка входа", 

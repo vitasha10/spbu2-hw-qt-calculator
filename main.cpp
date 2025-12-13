@@ -6,18 +6,28 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    // Show login dialog first
-    LoginDialog loginDialog; // отловить сигнал закрытия окна и перехватить его в CalculatorWindow
+    // Create login dialog
+    LoginDialog *loginDialog = new LoginDialog();
     
-    // If login is successful (accepted), show the calculator
-    if (loginDialog.exec() == QDialog::Accepted) {
-        CalculatorWindow *calculator = new CalculatorWindow();
-        calculator->setAttribute(Qt::WA_DeleteOnClose);
+    // Create calculator window but don't show it yet
+    CalculatorWindow *calculator = new CalculatorWindow();
+    calculator->setAttribute(Qt::WA_DeleteOnClose);
+    
+    // Connect login success signal to show calculator and close login dialog
+    QObject::connect(loginDialog, &LoginDialog::loginSuccessful, [loginDialog, calculator]() {
         calculator->show();
-        
-        return app.exec();
-    }
+        loginDialog->close();
+        loginDialog->deleteLater();
+    });
     
-    // If login was cancelled or failed, exit
-    return 0;
+    // If login dialog is closed without successful login, exit the application
+    QObject::connect(loginDialog, &QDialog::rejected, [calculator, &app]() {
+        calculator->deleteLater();
+        app.quit();
+    });
+    
+    // Show login dialog
+    loginDialog->show();
+    
+    return app.exec();
 }

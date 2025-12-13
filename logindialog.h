@@ -17,6 +17,9 @@ public:
     explicit LoginDialog(QWidget *parent = nullptr);
     ~LoginDialog();
 
+signals:
+    void loginSuccessful();
+
 private slots:
     void onLoginClicked();
 
