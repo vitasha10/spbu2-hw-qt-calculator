@@ -11,14 +11,11 @@ CalculatorWindow::CalculatorWindow(QWidget *parent)
 {
     setupUI();
     setWindowTitle("Калькулятор");
-    setMinimumSize(800, 500);
+    setFixedSize(300, 450);
 }
 
 CalculatorWindow::~CalculatorWindow()
 {
-    if (mediaPlayer) {
-        mediaPlayer->stop();
-    }
 }
 
 void CalculatorWindow::setupUI()
@@ -26,15 +23,13 @@ void CalculatorWindow::setupUI()
     centralWidget = new QWidget(this);
     setCentralWidget(centralWidget);
 
-    mainLayout = new QHBoxLayout(centralWidget);
+    mainLayout = new QVBoxLayout(centralWidget);
     mainLayout->setSpacing(20);
     mainLayout->setContentsMargins(10, 10, 10, 10);
 
     setupCalculator();
-    setupVideoPlayer();
 
     mainLayout->addWidget(calculatorWidget);
-    mainLayout->addWidget(videoContainer, 1);
 }
 
 void CalculatorWindow::setupCalculator()
@@ -137,43 +132,6 @@ void CalculatorWindow::setupCalculator()
     calcLayout->addWidget(display);
     calcLayout->addLayout(buttonLayout);
 
-    calculatorWidget->setFixedWidth(280);
-}
-
-void CalculatorWindow::setupVideoPlayer()
-{
-    videoContainer = new QWidget(centralWidget);
-    QVBoxLayout *videoLayout = new QVBoxLayout(videoContainer);
-
-    QLabel *videoTitle = new QLabel("Видеоплеер", videoContainer);
-    videoTitle->setAlignment(Qt::AlignCenter);
-    QFont titleFont = videoTitle->font();
-    titleFont.setPointSize(16);
-    titleFont.setBold(true);
-    videoTitle->setFont(titleFont);
-
-    videoWidget = new QVideoWidget(videoContainer);
-    videoWidget->setMinimumSize(400, 300);
-
-    mediaPlayer = new QMediaPlayer(this);
-    mediaPlayer->setVideoOutput(videoWidget);
-
-    // Set the video file path
-    QString videoPath = "C:/jjjjj/IMG_6349.MP4";
-    mediaPlayer->setMedia(QUrl::fromLocalFile(videoPath));
-
-    // Connect to loop the video when it ends
-    connect(mediaPlayer, &QMediaPlayer::stateChanged, this, [this](QMediaPlayer::State state) {
-        if (state == QMediaPlayer::StoppedState) {
-            mediaPlayer->play();
-        }
-    });
-
-    // Start playing the video
-    mediaPlayer->play();
-
-    videoLayout->addWidget(videoTitle);
-    videoLayout->addWidget(videoWidget, 1);
 }
 
 void CalculatorWindow::onDigitClicked()
