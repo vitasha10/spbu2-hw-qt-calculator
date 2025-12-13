@@ -1,0 +1,33 @@
+# Build artifacts
+*.o
+*.obj
+*.moc
+moc_*.cpp
+moc_predefs.h
+*.qm
+Makefile
+Calculator
+Calculator.exe
+
+# Qt project user files
+*.pro.user
+*.qmake.stash
+.qmake.stash
+
+# IDE files
+.idea/
+.vscode/
+*.user
+
+# Debug/Release directories
+debug/
+release/
+build/
+cmake-build/
+
+# Generated files
+ui_*.h
+qrc_*.cpp
+
+# CodeQL
+_codeql_detected_source_root
