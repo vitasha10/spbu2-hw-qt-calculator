@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
 
     // Show login dialog first
-    LoginDialog loginDialog;
+    LoginDialog loginDialog; // отловить сигнал закрытия окна и перехватить его в CalculatorWindow
     
     // If login is successful (accepted), show the calculator
     if (loginDialog.exec() == QDialog::Accepted) {
