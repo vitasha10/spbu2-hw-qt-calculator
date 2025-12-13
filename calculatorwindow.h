@@ -9,9 +9,6 @@
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QLabel>
-#include <QMediaPlayer>
-#include <QVideoWidget>
-#include <QUrl>
 
 class CalculatorWindow : public QMainWindow
 {
@@ -43,15 +40,10 @@ private:
     QPushButton *decimalButton;
     QPushButton *signButton;
 
-    // Video player widgets
-    QMediaPlayer *mediaPlayer;
-    QVideoWidget *videoWidget;
-
     // Central widget and layouts
     QWidget *centralWidget;
-    QHBoxLayout *mainLayout;
+    QVBoxLayout *mainLayout;
     QWidget *calculatorWidget;
-    QWidget *videoContainer;
 
     // Calculator state
     QString currentValue;
@@ -61,7 +53,6 @@ private:
 
     void setupUI();
     void setupCalculator();
-    void setupVideoPlayer();
     void calculate();
     void abortOperation();
 };

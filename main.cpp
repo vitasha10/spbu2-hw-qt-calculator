@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
     });
     
     // If login dialog is closed without successful login, exit the application
-    QObject::connect(loginDialog, &QDialog::rejected, [calculator, &app]() {
+    QObject::connect(loginDialog, &QDialog::rejected, [calculator]() {
         calculator->deleteLater();
-        app.quit();
+        QApplication::quit();
     });
     
     // Show login dialog
