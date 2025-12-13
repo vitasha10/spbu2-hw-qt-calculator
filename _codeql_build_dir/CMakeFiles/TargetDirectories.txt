@@ -1,0 +1,5 @@
+/home/runner/work/spbu2-hw-qt-calculator/spbu2-hw-qt-calculator/_codeql_build_dir/CMakeFiles/Calculator.dir
+/home/runner/work/spbu2-hw-qt-calculator/spbu2-hw-qt-calculator/_codeql_build_dir/CMakeFiles/edit_cache.dir
+/home/runner/work/spbu2-hw-qt-calculator/spbu2-hw-qt-calculator/_codeql_build_dir/CMakeFiles/rebuild_cache.dir
+/home/runner/work/spbu2-hw-qt-calculator/spbu2-hw-qt-calculator/_codeql_build_dir/CMakeFiles/Calculator_autogen_timestamp_deps.dir
+/home/runner/work/spbu2-hw-qt-calculator/spbu2-hw-qt-calculator/_codeql_build_dir/CMakeFiles/Calculator_autogen.dir
