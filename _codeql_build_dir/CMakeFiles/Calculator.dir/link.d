@@ -38,10 +38,8 @@ Calculator: \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o \
-  /lib/x86_64-linux-gnu/libGL.so.1 \
   /lib/x86_64-linux-gnu/libm.so.6 \
-  /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13 \
-  /lib/x86_64-linux-gnu/libpulse.so.0 \
+  /lib/x86_64-linux-gnu/libGL.so.1 \
   /lib/x86_64-linux-gnu/libpng16.so.16 \
   /lib/x86_64-linux-gnu/libz.so.1 \
   /lib/x86_64-linux-gnu/libharfbuzz.so.0 \
@@ -55,44 +53,18 @@ Calculator: \
   /lib64/ld-linux-x86-64.so.2 \
   /lib/x86_64-linux-gnu/libGLdispatch.so.0 \
   /lib/x86_64-linux-gnu/libGLX.so.0 \
-  /lib/x86_64-linux-gnu/libgssapi_krb5.so.2 \
-  /usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-16.1.so \
-  /lib/x86_64-linux-gnu/libdbus-1.so.3 \
   /lib/x86_64-linux-gnu/libfreetype.so.6 \
   /lib/x86_64-linux-gnu/libgraphite2.so.3 \
   /lib/x86_64-linux-gnu/libicudata.so.74 \
   /lib/x86_64-linux-gnu/libpcre2-8.so.0 \
   /lib/x86_64-linux-gnu/libX11.so.6 \
-  /lib/x86_64-linux-gnu/libkrb5.so.3 \
-  /lib/x86_64-linux-gnu/libk5crypto.so.3 \
-  /lib/x86_64-linux-gnu/libcom_err.so.2 \
-  /lib/x86_64-linux-gnu/libkrb5support.so.0 \
-  /lib/x86_64-linux-gnu/libsndfile.so.1 \
-  /lib/x86_64-linux-gnu/libX11-xcb.so.1 \
-  /lib/x86_64-linux-gnu/libxcb.so.1 \
-  /lib/x86_64-linux-gnu/libsystemd.so.0 \
-  /lib/x86_64-linux-gnu/libasyncns.so.0 \
-  /lib/x86_64-linux-gnu/libapparmor.so.1 \
   /lib/x86_64-linux-gnu/libbz2.so.1.0 \
   /lib/x86_64-linux-gnu/libbrotlidec.so.1 \
-  /lib/x86_64-linux-gnu/libkeyutils.so.1 \
-  /lib/x86_64-linux-gnu/libresolv.so.2 \
-  /lib/x86_64-linux-gnu/libFLAC.so.12 \
-  /lib/x86_64-linux-gnu/libvorbis.so.0 \
-  /lib/x86_64-linux-gnu/libvorbisenc.so.2 \
-  /lib/x86_64-linux-gnu/libopus.so.0 \
-  /lib/x86_64-linux-gnu/libogg.so.0 \
-  /lib/x86_64-linux-gnu/libmpg123.so.0 \
-  /lib/x86_64-linux-gnu/libmp3lame.so.0 \
+  /lib/x86_64-linux-gnu/libxcb.so.1 \
+  /lib/x86_64-linux-gnu/libbrotlicommon.so.1 \
   /lib/x86_64-linux-gnu/libXau.so.6 \
   /lib/x86_64-linux-gnu/libXdmcp.so.6 \
-  /lib/x86_64-linux-gnu/libcap.so.2 \
-  /lib/x86_64-linux-gnu/libgcrypt.so.20 \
-  /lib/x86_64-linux-gnu/liblz4.so.1 \
-  /lib/x86_64-linux-gnu/liblzma.so.5 \
-  /lib/x86_64-linux-gnu/libbrotlicommon.so.1 \
   /lib/x86_64-linux-gnu/libbsd.so.0 \
-  /lib/x86_64-linux-gnu/libgpg-error.so.0 \
   /lib/x86_64-linux-gnu/libmd.so.0
 
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o:
@@ -173,13 +145,9 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o:
 
-/lib/x86_64-linux-gnu/libGL.so.1:
-
 /lib/x86_64-linux-gnu/libm.so.6:
 
-/usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13:
-
-/lib/x86_64-linux-gnu/libpulse.so.0:
+/lib/x86_64-linux-gnu/libGL.so.1:
 
 /lib/x86_64-linux-gnu/libpng16.so.16:
 
@@ -207,12 +175,6 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o:
 
 /lib/x86_64-linux-gnu/libGLX.so.0:
 
-/lib/x86_64-linux-gnu/libgssapi_krb5.so.2:
-
-/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-16.1.so:
-
-/lib/x86_64-linux-gnu/libdbus-1.so.3:
-
 /lib/x86_64-linux-gnu/libfreetype.so.6:
 
 /lib/x86_64-linux-gnu/libgraphite2.so.3:
@@ -223,64 +185,18 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o:
 
 /lib/x86_64-linux-gnu/libX11.so.6:
 
-/lib/x86_64-linux-gnu/libkrb5.so.3:
-
-/lib/x86_64-linux-gnu/libk5crypto.so.3:
-
-/lib/x86_64-linux-gnu/libcom_err.so.2:
-
-/lib/x86_64-linux-gnu/libkrb5support.so.0:
-
-/lib/x86_64-linux-gnu/libsndfile.so.1:
-
-/lib/x86_64-linux-gnu/libX11-xcb.so.1:
-
-/lib/x86_64-linux-gnu/libxcb.so.1:
-
-/lib/x86_64-linux-gnu/libsystemd.so.0:
-
-/lib/x86_64-linux-gnu/libasyncns.so.0:
-
-/lib/x86_64-linux-gnu/libapparmor.so.1:
-
 /lib/x86_64-linux-gnu/libbz2.so.1.0:
 
 /lib/x86_64-linux-gnu/libbrotlidec.so.1:
 
-/lib/x86_64-linux-gnu/libkeyutils.so.1:
+/lib/x86_64-linux-gnu/libxcb.so.1:
 
-/lib/x86_64-linux-gnu/libresolv.so.2:
-
-/lib/x86_64-linux-gnu/libFLAC.so.12:
-
-/lib/x86_64-linux-gnu/libvorbis.so.0:
-
-/lib/x86_64-linux-gnu/libvorbisenc.so.2:
-
-/lib/x86_64-linux-gnu/libopus.so.0:
-
-/lib/x86_64-linux-gnu/libogg.so.0:
-
-/lib/x86_64-linux-gnu/libmpg123.so.0:
-
-/lib/x86_64-linux-gnu/libmp3lame.so.0:
+/lib/x86_64-linux-gnu/libbrotlicommon.so.1:
 
 /lib/x86_64-linux-gnu/libXau.so.6:
 
 /lib/x86_64-linux-gnu/libXdmcp.so.6:
 
-/lib/x86_64-linux-gnu/libcap.so.2:
-
-/lib/x86_64-linux-gnu/libgcrypt.so.20:
-
-/lib/x86_64-linux-gnu/liblz4.so.1:
-
-/lib/x86_64-linux-gnu/liblzma.so.5:
-
-/lib/x86_64-linux-gnu/libbrotlicommon.so.1:
-
 /lib/x86_64-linux-gnu/libbsd.so.0:
-
-/lib/x86_64-linux-gnu/libgpg-error.so.0:
 
 /lib/x86_64-linux-gnu/libmd.so.0:

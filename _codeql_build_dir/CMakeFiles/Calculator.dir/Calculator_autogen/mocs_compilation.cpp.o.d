@@ -323,39 +323,6 @@ CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QMediaPlayer \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaplayer.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimediaglobal.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimedia-config.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaobject.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmultimedia.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediacontent.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaresource.h \
- /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h \
- /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
- /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaenumdebug.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetaobject.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qaudio.h \
- /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkconfiguration.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QVideoWidget \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/qvideowidget.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/qtmultimediawidgetdefs.h \
- /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediabindableinterface.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl \
  /home/runner/work/spbu2-hw-qt-calculator/spbu2-hw-qt-calculator/_codeql_build_dir/Calculator_autogen/EWIEGA46WW/moc_logindialog.cpp \
  /home/runner/work/spbu2-hw-qt-calculator/spbu2-hw-qt-calculator/_codeql_build_dir/Calculator_autogen/EWIEGA46WW/../../../logindialog.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \

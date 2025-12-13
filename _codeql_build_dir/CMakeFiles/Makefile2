@@ -87,8 +87,8 @@ clean: CMakeFiles/Calculator_autogen.dir/clean
 # Target rules for target CMakeFiles/Calculator.dir
 
 # All Build rule for target.
-CMakeFiles/Calculator.dir/all: CMakeFiles/Calculator_autogen_timestamp_deps.dir/all
 CMakeFiles/Calculator.dir/all: CMakeFiles/Calculator_autogen.dir/all
+CMakeFiles/Calculator.dir/all: CMakeFiles/Calculator_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Calculator.dir/build.make CMakeFiles/Calculator.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runner/work/spbu2-hw-qt-calculator/spbu2-hw-qt-calculator/_codeql_build_dir/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Calculator"
