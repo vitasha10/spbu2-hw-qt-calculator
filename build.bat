@@ -9,8 +9,8 @@ echo Calculator Build Script
 echo ================================================
 
 REM Set Qt path - CHANGE THIS TO YOUR Qt INSTALLATION PATH
-set QT_PATH=C:\Qt\5.15.2\mingw81_64
-set MINGW_PATH=C:\Qt\Tools\mingw810_64
+set QT_PATH=C:\msys64\mingw64
+set MINGW_PATH=C:\msys64\mingw64
 
 REM Add Qt and MinGW to PATH
 set PATH=%QT_PATH%\bin;%MINGW_PATH%\bin;%PATH%
