@@ -13,17 +13,20 @@ int main(int argc, char *argv[])
     CalculatorWindow *calculator = new CalculatorWindow();
     calculator->setAttribute(Qt::WA_DeleteOnClose);
     
+    // Store the rejected connection so we can disconnect it on success
+    QMetaObject::Connection rejectedConnection;
+    
     // Connect login success signal to show calculator and close login dialog
-    QObject::connect(loginDialog, &LoginDialog::loginSuccessful, [loginDialog, calculator]() {
-        // Disconnect all signals from loginDialog to prevent rejected signal
-        loginDialog->disconnect();
+    QObject::connect(loginDialog, &LoginDialog::loginSuccessful, [loginDialog, calculator, &rejectedConnection]() {
+        // Disconnect the rejected signal to prevent app quit on login dialog close
+        QObject::disconnect(rejectedConnection);
         calculator->show();
         loginDialog->close();
         loginDialog->deleteLater();
     });
     
     // If login dialog is closed without successful login, exit the application
-    QObject::connect(loginDialog, &QDialog::rejected, [calculator]() {
+    rejectedConnection = QObject::connect(loginDialog, &QDialog::rejected, [calculator]() {
         calculator->deleteLater();
         QApplication::quit();
     });
