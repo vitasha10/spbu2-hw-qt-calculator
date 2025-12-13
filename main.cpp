@@ -15,6 +15,8 @@ int main(int argc, char *argv[])
     
     // Connect login success signal to show calculator and close login dialog
     QObject::connect(loginDialog, &LoginDialog::loginSuccessful, [loginDialog, calculator]() {
+        // Disconnect all signals from loginDialog to prevent rejected signal
+        loginDialog->disconnect();
         calculator->show();
         loginDialog->close();
         loginDialog->deleteLater();
