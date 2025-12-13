@@ -695,10 +695,6 @@ CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o: Calculator_
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
@@ -711,9 +707,7 @@ CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o: Calculator_
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
@@ -724,11 +718,9 @@ CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o: Calculator_
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetaobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
@@ -743,7 +735,6 @@ CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o: Calculator_
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
@@ -757,9 +748,7 @@ CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o: Calculator_
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
@@ -790,24 +779,6 @@ CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o: Calculator_
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QMediaPlayer \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qaudio.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediabindableinterface.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediacontent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaenumdebug.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaobject.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaplayer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaresource.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmultimedia.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimedia-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimediaglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QVideoWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/qtmultimediawidgetdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/qvideowidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkconfiguration.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
@@ -1121,10 +1092,6 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o: /home/runner/work/spbu2-hw-qt-
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
@@ -1137,9 +1104,7 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o: /home/runner/work/spbu2-hw-qt-
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
@@ -1150,11 +1115,9 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o: /home/runner/work/spbu2-hw-qt-
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetaobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
@@ -1169,7 +1132,6 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o: /home/runner/work/spbu2-hw-qt-
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
@@ -1183,9 +1145,7 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o: /home/runner/work/spbu2-hw-qt-
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
@@ -1216,24 +1176,6 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o: /home/runner/work/spbu2-hw-qt-
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QMediaPlayer \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qaudio.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediabindableinterface.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediacontent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaenumdebug.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaobject.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaplayer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaresource.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmultimedia.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimedia-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimediaglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QVideoWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/qtmultimediawidgetdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/qvideowidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkconfiguration.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
@@ -1891,10 +1833,6 @@ CMakeFiles/Calculator.dir/main.cpp.o: /home/runner/work/spbu2-hw-qt-calculator/s
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
@@ -1907,11 +1845,9 @@ CMakeFiles/Calculator.dir/main.cpp.o: /home/runner/work/spbu2-hw-qt-calculator/s
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
@@ -1927,7 +1863,6 @@ CMakeFiles/Calculator.dir/main.cpp.o: /home/runner/work/spbu2-hw-qt-calculator/s
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetaobject.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
@@ -1942,7 +1877,6 @@ CMakeFiles/Calculator.dir/main.cpp.o: /home/runner/work/spbu2-hw-qt-calculator/s
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
@@ -1956,9 +1890,7 @@ CMakeFiles/Calculator.dir/main.cpp.o: /home/runner/work/spbu2-hw-qt-calculator/s
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
@@ -1991,24 +1923,6 @@ CMakeFiles/Calculator.dir/main.cpp.o: /home/runner/work/spbu2-hw-qt-calculator/s
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
   /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QMediaPlayer \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qaudio.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediabindableinterface.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediacontent.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaenumdebug.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaobject.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaplayer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaresource.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmultimedia.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimedia-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimediaglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QVideoWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/qtmultimediawidgetdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/qvideowidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkconfiguration.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout \
@@ -2048,58 +1962,32 @@ CMakeFiles/Calculator.dir/main.cpp.o: /home/runner/work/spbu2-hw-qt-calculator/s
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
-Calculator: /lib/x86_64-linux-gnu/libFLAC.so.12 \
-  /lib/x86_64-linux-gnu/libGL.so.1 \
+Calculator: /lib/x86_64-linux-gnu/libGL.so.1 \
   /lib/x86_64-linux-gnu/libGLX.so.0 \
   /lib/x86_64-linux-gnu/libGLdispatch.so.0 \
-  /lib/x86_64-linux-gnu/libX11-xcb.so.1 \
   /lib/x86_64-linux-gnu/libX11.so.6 \
   /lib/x86_64-linux-gnu/libXau.so.6 \
   /lib/x86_64-linux-gnu/libXdmcp.so.6 \
-  /lib/x86_64-linux-gnu/libapparmor.so.1 \
-  /lib/x86_64-linux-gnu/libasyncns.so.0 \
   /lib/x86_64-linux-gnu/libbrotlicommon.so.1 \
   /lib/x86_64-linux-gnu/libbrotlidec.so.1 \
   /lib/x86_64-linux-gnu/libbsd.so.0 \
   /lib/x86_64-linux-gnu/libbz2.so.1.0 \
   /lib/x86_64-linux-gnu/libc.so.6 \
-  /lib/x86_64-linux-gnu/libcap.so.2 \
-  /lib/x86_64-linux-gnu/libcom_err.so.2 \
-  /lib/x86_64-linux-gnu/libdbus-1.so.3 \
   /lib/x86_64-linux-gnu/libdouble-conversion.so.3 \
   /lib/x86_64-linux-gnu/libfreetype.so.6 \
-  /lib/x86_64-linux-gnu/libgcrypt.so.20 \
   /lib/x86_64-linux-gnu/libglib-2.0.so.0 \
-  /lib/x86_64-linux-gnu/libgpg-error.so.0 \
   /lib/x86_64-linux-gnu/libgraphite2.so.3 \
-  /lib/x86_64-linux-gnu/libgssapi_krb5.so.2 \
   /lib/x86_64-linux-gnu/libharfbuzz.so.0 \
   /lib/x86_64-linux-gnu/libicudata.so.74 \
   /lib/x86_64-linux-gnu/libicui18n.so.74 \
   /lib/x86_64-linux-gnu/libicuuc.so.74 \
-  /lib/x86_64-linux-gnu/libk5crypto.so.3 \
-  /lib/x86_64-linux-gnu/libkeyutils.so.1 \
-  /lib/x86_64-linux-gnu/libkrb5.so.3 \
-  /lib/x86_64-linux-gnu/libkrb5support.so.0 \
-  /lib/x86_64-linux-gnu/liblz4.so.1 \
-  /lib/x86_64-linux-gnu/liblzma.so.5 \
   /lib/x86_64-linux-gnu/libm.so.6 \
   /lib/x86_64-linux-gnu/libmd.so.0 \
   /lib/x86_64-linux-gnu/libmd4c.so.0 \
-  /lib/x86_64-linux-gnu/libmp3lame.so.0 \
-  /lib/x86_64-linux-gnu/libmpg123.so.0 \
   /lib/x86_64-linux-gnu/libmvec.so.1 \
-  /lib/x86_64-linux-gnu/libogg.so.0 \
-  /lib/x86_64-linux-gnu/libopus.so.0 \
   /lib/x86_64-linux-gnu/libpcre2-16.so.0 \
   /lib/x86_64-linux-gnu/libpcre2-8.so.0 \
   /lib/x86_64-linux-gnu/libpng16.so.16 \
-  /lib/x86_64-linux-gnu/libpulse.so.0 \
-  /lib/x86_64-linux-gnu/libresolv.so.2 \
-  /lib/x86_64-linux-gnu/libsndfile.so.1 \
-  /lib/x86_64-linux-gnu/libsystemd.so.0 \
-  /lib/x86_64-linux-gnu/libvorbis.so.0 \
-  /lib/x86_64-linux-gnu/libvorbisenc.so.2 \
   /lib/x86_64-linux-gnu/libxcb.so.1 \
   /lib/x86_64-linux-gnu/libz.so.1 \
   /lib/x86_64-linux-gnu/libzstd.so.1 \
@@ -2122,7 +2010,6 @@ Calculator: /lib/x86_64-linux-gnu/libFLAC.so.12 \
   /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13 \
   /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 \
   /usr/lib/x86_64-linux-gnu/libc_nonshared.a \
-  /usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-16.1.so \
   CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o \
   CMakeFiles/Calculator.dir/calculatorwindow.cpp.o \
   CMakeFiles/Calculator.dir/logindialog.cpp.o \
@@ -2132,6 +2019,8 @@ Calculator: /lib/x86_64-linux-gnu/libFLAC.so.12 \
 /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13:
 
 /usr/lib/x86_64-linux-gnu/libQt5MultimediaWidgets.so.5.15.13:
+
+/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so:
 
@@ -2149,27 +2038,13 @@ Calculator: /lib/x86_64-linux-gnu/libFLAC.so.12 \
 
 /lib/x86_64-linux-gnu/libxcb.so.1:
 
-/lib/x86_64-linux-gnu/libvorbis.so.0:
-
-/lib/x86_64-linux-gnu/libresolv.so.2:
-
-/lib/x86_64-linux-gnu/libpulse.so.0:
-
 /lib/x86_64-linux-gnu/libpcre2-16.so.0:
 
 /lib/x86_64-linux-gnu/libmvec.so.1:
 
-/lib/x86_64-linux-gnu/libmpg123.so.0:
-
-/lib/x86_64-linux-gnu/libmp3lame.so.0:
-
 /lib/x86_64-linux-gnu/libmd4c.so.0:
 
 /lib/x86_64-linux-gnu/libmd.so.0:
-
-/lib/x86_64-linux-gnu/libkrb5support.so.0:
-
-/lib/x86_64-linux-gnu/libkeyutils.so.1:
 
 /lib/x86_64-linux-gnu/libicuuc.so.74:
 
@@ -2179,21 +2054,19 @@ Calculator: /lib/x86_64-linux-gnu/libFLAC.so.12 \
 
 /lib/x86_64-linux-gnu/libfreetype.so.6:
 
-/lib/x86_64-linux-gnu/libcap.so.2:
-
 /lib/x86_64-linux-gnu/libc.so.6:
 
 /lib/x86_64-linux-gnu/libbsd.so.0:
 
 /lib/x86_64-linux-gnu/libbrotlidec.so.1:
 
-/lib/x86_64-linux-gnu/libasyncns.so.0:
-
-/lib/x86_64-linux-gnu/libX11.so.6:
+/lib/x86_64-linux-gnu/libXdmcp.so.6:
 
 /lib/x86_64-linux-gnu/libXau.so.6:
 
-/lib/x86_64-linux-gnu/libX11-xcb.so.1:
+/lib/x86_64-linux-gnu/libX11.so.6:
+
+/lib/x86_64-linux-gnu/libGL.so.1:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
 
@@ -2207,7 +2080,7 @@ Calculator: /lib/x86_64-linux-gnu/libFLAC.so.12 \
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/lib/x86_64-linux-gnu/libsystemd.so.0:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
@@ -2230,50 +2103,6 @@ Calculator: /lib/x86_64-linux-gnu/libFLAC.so.12 \
 /usr/include/c++/13/bits/specfun.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkconfiguration.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/qvideowidget.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/qtmultimediawidgetdefs.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimediaWidgets/QVideoWidget:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimediaglobal.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmultimedia.h:
-
-/lib/x86_64-linux-gnu/libcom_err.so.2:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaresource.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaplayer.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaenumdebug.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediabindableinterface.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/QMediaPlayer:
-
-/lib/x86_64-linux-gnu/libXdmcp.so.6:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h:
-
-/lib/x86_64-linux-gnu/libGL.so.1:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetaobject.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QString:
-
-/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QSharedDataPointer:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
@@ -2329,8 +2158,6 @@ Calculator: /lib/x86_64-linux-gnu/libFLAC.so.12 \
 
 /usr/include/c++/13/bits/unordered_map.h:
 
-/lib/x86_64-linux-gnu/libkrb5.so.3:
-
 /usr/include/c++/13/bits/parse_numbers.h:
 
 /usr/include/c++/13/bits/hashtable.h:
@@ -2363,8 +2190,6 @@ Calculator_autogen/mocs_compilation.cpp:
 
 /usr/local/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h:
-
 /usr/local/share/cmake-3.31/Modules/CMakeCXXInformation.cmake:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
@@ -2374,8 +2199,6 @@ Calculator_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/ratio:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake:
-
-/lib/x86_64-linux-gnu/libFLAC.so.12:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:
 
@@ -2415,8 +2238,6 @@ Calculator_autogen/mocs_compilation.cpp:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake:
 
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qaudio.h:
-
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake:
@@ -2424,8 +2245,6 @@ Calculator_autogen/mocs_compilation.cpp:
 CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake:
-
-/lib/x86_64-linux-gnu/liblzma.so.5:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake:
 
@@ -2457,13 +2276,9 @@ CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
-/lib/x86_64-linux-gnu/libogg.so.0:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/lib/x86_64-linux-gnu/libgcrypt.so.20:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
 
@@ -2549,8 +2364,6 @@ Calculator_autogen/EWIEGA46WW/moc_calculatorwindow.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-16.1.so:
-
 /usr/include/c++/13/iterator:
 
 /usr/include/c++/13/cmath:
@@ -2567,8 +2380,6 @@ Calculator_autogen/EWIEGA46WW/moc_calculatorwindow.cpp:
 
 /usr/include/assert.h:
 
-/lib/x86_64-linux-gnu/libdbus-1.so.3:
-
 /usr/include/c++/13/bits/postypes.h:
 
 /usr/include/c++/13/stdexcept:
@@ -2578,8 +2389,6 @@ Calculator_autogen/EWIEGA46WW/moc_calculatorwindow.cpp:
 /usr/include/c++/13/bits/ranges_uninitialized.h:
 
 /usr/include/c++/13/concepts:
-
-/lib/x86_64-linux-gnu/libvorbisenc.so.2:
 
 /usr/include/c++/13/bits/unique_ptr.h:
 
@@ -2597,8 +2406,6 @@ Calculator_autogen/EWIEGA46WW/moc_calculatorwindow.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediacontent.h:
-
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
 /usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake:
@@ -2607,8 +2414,6 @@ Calculator_autogen/EWIEGA46WW/moc_calculatorwindow.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
-/lib/x86_64-linux-gnu/libsndfile.so.1:
-
 /usr/include/c++/13/tr1/poly_hermite.tcc:
 
 /usr/include/c++/13/bits/uniform_int_dist.h:
@@ -2616,8 +2421,6 @@ Calculator_autogen/EWIEGA46WW/moc_calculatorwindow.cpp:
 /usr/include/c++/13/bits/stl_numeric.h:
 
 /usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:
 
 /usr/include/c++/13/bits/stl_multimap.h:
 
@@ -2640,8 +2443,6 @@ Calculator_autogen/EWIEGA46WW/moc_calculatorwindow.cpp:
 /usr/include/c++/13/bits/localefwd.h:
 
 /usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:
 
 /usr/include/c++/13/bits/std_mutex.h:
 
@@ -2722,8 +2523,6 @@ Calculator_autogen/EWIEGA46WW/moc_calculatorwindow.cpp:
 /usr/include/alloca.h:
 
 /usr/include/c++/13/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h:
 
@@ -2895,8 +2694,6 @@ Calculator_autogen/moc_predefs.h:
 
 /usr/include/c++/13/bits/functional_hash.h:
 
-/lib/x86_64-linux-gnu/libgssapi_krb5.so.2:
-
 /usr/include/c++/13/bits/stream_iterator.h:
 
 /usr/include/c++/13/bits/align.h:
@@ -2916,8 +2713,6 @@ Calculator_autogen/moc_predefs.h:
 /usr/include/c++/13/bits/atomic_base.h:
 
 /usr/include/stdc-predef.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -3007,8 +2802,6 @@ CMakeFiles/3.31.6/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/lib/x86_64-linux-gnu/liblz4.so.1:
-
 /lib/x86_64-linux-gnu/libicui18n.so.74:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
@@ -3043,13 +2836,9 @@ CMakeFiles/3.31.6/CMakeCXXCompiler.cmake:
 
 /usr/include/features-time64.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
 /usr/include/c++/13/bits/requires_hosted.h:
-
-/lib/x86_64-linux-gnu/libapparmor.so.1:
 
 /usr/include/features.h:
 
@@ -3100,8 +2889,6 @@ CMakeFiles/3.31.6/CMakeCXXCompiler.cmake:
 /usr/include/c++/13/numbers:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimedia-config.h:
 
 /usr/local/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake:
 
@@ -3255,8 +3042,6 @@ CMakeFiles/Calculator.dir/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaobject.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h:
@@ -3273,8 +3058,6 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
 
-/lib/x86_64-linux-gnu/libk5crypto.so.3:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
@@ -3282,8 +3065,6 @@ CMakeFiles/Calculator.dir/calculatorwindow.cpp.o:
 CMakeFiles/Calculator.dir/logindialog.cpp.o:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
 
@@ -3355,8 +3136,6 @@ CMakeFiles/Calculator.dir/logindialog.cpp.o:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
 
-/lib/x86_64-linux-gnu/libgpg-error.so.0:
-
 /usr/include/c++/13/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog:
@@ -3370,8 +3149,6 @@ CMakeFiles/Calculator.dir/logindialog.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
-
-/lib/x86_64-linux-gnu/libopus.so.0:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake:
 
